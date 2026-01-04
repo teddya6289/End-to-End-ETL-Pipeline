@@ -6,17 +6,17 @@ This project demonstrates a production-oriented ETL (Extract(REST API), Transfor
 ## Architecture
 ![End-to-End ETL Workflow Architecture](image/ETL%20workflow%20diagram.png)
 ---
--**Extract:**Ingest structured data from a third-party REST API
+-**Extract:** Ingest structured data from a third-party REST API
 
--**Transform:**Apply validation, cleansing, and transformation logic using Python function
+-**Transform:** Apply validation, cleansing, and transformation logic using Python function
 
 -**Load:** Consistently persist data using SQL-based schemas and PL/SQL business logic
 
--**Orchestrate:**Schedule and automate workflows using Apache Airflow
+-**Orchestrate:** Schedule and automate workflows using Apache Airflow
 
--**Deploy:**Run Airflow in a Dockerized Linux environment
+-**Deploy:** Run Airflow in a Dockerized Linux environment
 
--**Visualize:**Consume curated datasets in Power BI for analytical reporting
+-**Visualize:** Consume curated datasets in Power BI for analytical reporting
 
 ## Tech Stack
 
