@@ -5,24 +5,20 @@ This project demonstrates a production-oriented ETL (Extract(REST API), Transfor
 
 ## Architecture
 ![End-to-End ETL Workflow Architecture](image/ETL%20workflow%20diagram.png)
----
--**Extract:**Ingest structured data from a third-party REST API
+- **Extract:** Ingest structured data from a third-party REST API
 
--**Transform:**Apply validation, cleansing, and transformation logic using Python function
+- **Transform:** Apply validation, cleansing, and transformation logic using Python function
 
--**Load:** Consistently persist data using SQL-based schemas and PL/SQL business logic
+- **Load:** Consistently persist data using SQL-based schemas and PL/SQL business logic
 
--**Orchestrate:**Schedule and automate workflows using Apache Airflow
+- **Orchestrate:** Schedule and automate workflows using Apache Airflow
 
--**Deploy:**Run Airflow in a Dockerized Linux environment
+- **Deploy:** Run Airflow in a Dockerized Linux environment
 
--**Visualize:**Consume curated datasets in Power BI for analytical reporting
+- **Visualize:** Consume curated datasets in Power BI for analytical reporting
 
 ## Tech Stack
 **SQL:**  Database schema design, data preparation and integrity enforement [View logic](SQL_PLSQL/Ora_Data_modelling.sql)
-
----
-**SQL** Database schema design, data preparation and integrity enforement [`View logic`](SQL_PLSQL/Ora_Data_modelling.sql)
 
 **Python:**   Data ingestion, validation,transformation,batch handling and loading(database callable procedure)logic.[`View logic`](src/source_code.ipynb)
 
@@ -30,8 +26,6 @@ This project demonstrates a production-oriented ETL (Extract(REST API), Transfor
 
 **Docker:**   Containerized execution environment for Airflow
 
-**Power BI:** Data visualization and KPI reporting. [`Report`](PowerBI/finaldelivery_bookdata.pbix)
+**Power BI** data visualization and KPI reporting.![Report](image/output.png)
 
-**Power BI** data visualization and KPI reporting.[Report](PowerBI/finaldelivery_bookdata.pbix)
-
-A complete end-to-end architecture and implementation walkthrough segmented by technology is available on [Full project walkthrough (Youtube playlist)](https://www.youtube.com/playlist?list=PL2rq7cLwpbdC8y8Eh_Jri3EY6gHFWuc65), covering the Oracle database preparation, ETL flow, orchestration,scheduling and automation logic, Dockerized deployment, and Power BI reporting
+A complete end-to-end architecture and implementation walkthrough segmented by technology is available on [`Youtube playlist`](https://www.youtube.com/playlist?list=PL2rq7cLwpbdC8y8Eh_Jri3EY6gHFWuc65), covering the Oracle database preparation, ETL flow, orchestration,scheduling and automation logic, Dockerized deployment, and Power BI reporting
