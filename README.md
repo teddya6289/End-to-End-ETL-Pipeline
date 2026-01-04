@@ -26,6 +26,7 @@ This project demonstrates a production-oriented ETL (Extract(REST API), Transfor
 
 **Docker:**   Containerized execution environment for Airflow
 
-**Power BI** data visualization and KPI reporting.![Report](image/output.png)
+**Power BI** data visualization and KPI reporting.
+![Report](image/output.png)
 
 A complete end-to-end architecture and implementation walkthrough segmented by technology is available on [`Youtube playlist`](https://www.youtube.com/playlist?list=PL2rq7cLwpbdC8y8Eh_Jri3EY6gHFWuc65), covering the Oracle database preparation, ETL flow, orchestration,scheduling and automation logic, Dockerized deployment, and Power BI reporting
