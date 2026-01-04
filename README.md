@@ -23,7 +23,7 @@ This project demonstrates a production-oriented ETL (Extract(REST API), Transfor
 **PL/SQL:** Database-side business logic ([`Bulk Insert/update procedure`](SQL_PLSQL/Pl_SQL_loading_ora_package.sql) and Triggers-[`data quality and logging`](SQL_PLSQL/Database_Trigger_Book_store.sql)-)
 
 
-**Python:**   Data ingestion, validation,transformation,batch handling and loading(database callable procedure)logic.[`View logic`](src/source_code.ipynb)
+**Python:** Data ingestion, validation,transformation,batch handling and loading(database callable procedure) logic.[`View logic`](src/source_code.ipynb)
 
 **Apache Airflow:** [`Workflow orchestration`](dags/scripts/project_automate_etl.py),scheduling and automation.[`Dag`](dags/Automate_runtime_etl.py)
 
@@ -33,4 +33,4 @@ This project demonstrates a production-oriented ETL (Extract(REST API), Transfor
 
 ![Report](image/output.png)
 
-A complete end-to-end architecture and implementation walkthrough segmented by technology is available on [`Youtube playlist`](https://www.youtube.com/playlist?list=PL2rq7cLwpbdC8y8Eh_Jri3EY6gHFWuc65), covering the Oracle database preparation, ETL flow, orchestration,scheduling and automation logic, Dockerized deployment, and Power BI reporting
+**A complete end-to-end architecture and implementation walkthrough segmented by technology is available on [`Youtube playlist`](https://www.youtube.com/playlist?list=PL2rq7cLwpbdC8y8Eh_Jri3EY6gHFWuc65), covering the Oracle database preparation, ETL flow, orchestration,scheduling and automation logic, Dockerized deployment, and Power BI reporting**
